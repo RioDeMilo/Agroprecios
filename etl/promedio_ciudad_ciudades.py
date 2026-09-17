@@ -6,7 +6,7 @@ import transformers
 import load
 
 
-wsdl = 'http://appweb.dane.gov.co/sipsaWS/SrvSipsaUpraBeanService?WSDL'
+wsdl = 'https://appweb.dane.gov.co/sipsaWS/SrvSipsaUpraBeanService?WSDL'
 service_method = "promediosSipsaCiudad"
 
 fields = [

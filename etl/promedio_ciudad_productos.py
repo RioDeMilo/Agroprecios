@@ -1,6 +1,6 @@
 import os
 import sys
-from etl import etl 
+import etl 
 from etl import soap_client
 from etl import transformers
 from etl import load

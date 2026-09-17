@@ -1,3 +1,4 @@
+from pathlib import Path
 import numpy
 import pandas as pd
 import sqlite3 
@@ -64,7 +65,7 @@ def promedio_ciudad(raw_data: list, fields: list) -> pd.DataFrame:
     # Adding the fixed connection to the Transformation
 
     BASE_DIR = Path(__file__).resolve().parent.parent
-    correct_path = BASE_DIR / "database" / "agro.db"
+    correct_path = BASE_DIR / "database" / "sipsa.db"
 
 
     conn = sqlite3.connect(str(correct_path))

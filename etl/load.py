@@ -10,7 +10,7 @@ def update_database(clean_data : pd.DataFrame, db_table_name : str, index : bool
 
     # 1. Corregir la ruta: Subir un nivel desde la carpeta del script para encontrar 'database'
     # Esto asegura que busque en /home/milo/sipsa/database/sipsa.db
-    BASE_DIR = Path(__file__).resolve().parent.parent.parent
+    BASE_DIR = Path(__file__).resolve().parent.parent
     correct_path = BASE_DIR / "database" / "sipsa.db"
 
 #    try:
